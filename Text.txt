@@ -1,0 +1,31 @@
+ installation:
+
+>>npm create vite@latest "project_Name".
+>>cd "project_name"
+>>npm install
+>>npm install tailwindcss @tailwindcss/vite          using  website
+>>npm install axios                                  to intract Backend to frontend through userAPI
+>>npm install react-router-dom
+>>npm install @mui/material @emotion/react @emotion/styled
+
+>>npm run dev
+
+
+===================Backend install:=================================
+>>npm init -y
+>>npm install express cors body-parser mongoose
+>>npm install nodemon 
+
+     "start":"node app.js",
+     "dev":"nodemon app.js" 
+>>npm install bcryptjs              for data secure -ecrypted/bcrypted ,10salt
+>>npm install dotenv                for secure data like database,port,etc
+>>npm install path                  for Upload image in database through multer.
+>>npm install multer                 ,,      ,,            ,,
+>>npm install jsonwebtoken          for reduce redundancy when access data to client site
+>>npm i cookie-parser
+>>npm i @reduxjs/toolkit react-redux
+
+
+>>npm install passport passport-local passport-local-mongoose
+

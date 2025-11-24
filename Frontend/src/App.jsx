@@ -6,8 +6,11 @@ import { useSelector } from 'react-redux'
 import Home from './pages/Home.jsx'
 import Profile from './pages/Profile.jsx'
 import useGetCurrentUser from './customHooks/getCurrentUser'
+import getOtherUsersData from './customHooks/getOtherUsers.jsx'
+
 function App() {
       useGetCurrentUser();
+      getOtherUsersData();
       const {userData} =useSelector((state)=>state.user)
   return (
     <div>

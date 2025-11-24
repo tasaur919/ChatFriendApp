@@ -21,10 +21,13 @@ const userSchema=new mongoose.Schema({
     required:true
    },
    image:{
-    type:String,
-    default:"string"
-   },
-   mobile:{type:Number}
+    type:String
+   }
+//    image:{
+//     type:String,
+//     default:"string"
+//    },
+//    mobile:{type:Number}
 },
 {timestamps:true})
 

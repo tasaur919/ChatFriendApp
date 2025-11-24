@@ -1,8 +1,13 @@
 import React from 'react'
+import Sidebar from '../components/Sidebar'
+import ChatAreas from '../components/ChatAreas'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='flex'>
+      <Sidebar/>
+      <ChatAreas/>
+    </div>
   )
 }
 

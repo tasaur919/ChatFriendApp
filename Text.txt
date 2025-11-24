@@ -7,6 +7,7 @@
 >>npm install axios                                  to intract Backend to frontend through userAPI
 >>npm install react-router-dom
 >>npm install @mui/material @emotion/react @emotion/styled
+>>npm install @mui/icons-material
 
 >>npm run dev
 
@@ -25,7 +26,7 @@
 >>npm install jsonwebtoken          for reduce redundancy when access data to client site
 >>npm i cookie-parser
 >>npm i @reduxjs/toolkit react-redux
-
+>>npm i cloudinary       for store image,videos
 
 >>npm install passport passport-local passport-local-mongoose
 

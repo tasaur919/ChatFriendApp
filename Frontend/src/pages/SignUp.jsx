@@ -77,15 +77,15 @@ function SignUp() {
                     <input type={`${show?"text":"password"}`} name='password' placeholder='******' className=' outline-none px-4  py-3  ' onChange={handleChangeInpute} required/>                     <span className='absolute right-4 top-[12px] font-semibold text-sky-400 cursor-pointer' onClick={()=>setShow(!show)}>{`${show?"hidden":"show"}`}</span>
                     </div>
 
-<div className=' w-full grid grid-cols-1 md:grid-cols-2 md:gap-4 gap-6'> 
-                        <label className={`border outline-none px-[2px] ${storeUser.image?"text-gray-900":"text-gray-500"} rounded-2xl py-3 shadow-lg shadow-gray-400 border-sky-400`}>
+{/* <div className=' w-full grid grid-cols-1 md:grid-cols-2 md:gap-4 gap-6'> 
+                         <label className={`border outline-none px-[2px] ${storeUser.image?"text-gray-900":"text-gray-500"} rounded-2xl py-3 shadow-lg shadow-gray-400 border-sky-400`}>
                           <span className='bg-gray-400 px-2 text-gray-800 font-semibold rounded-md py-2.5'>Chose image :</span>  {storeUser.image?storeUser.image.name :" No. file"}
                            
                             
                         <input type="file" name='image'  placeholder='' className='hidden' onChange={handleChangeInpute} />
-                        </label>
+                        </label> 
                         <input type="number" name='mobile' placeholder='mobile Number' className='border outline-none px-4 rounded-2xl py-3 shadow-lg shadow-gray-400 border-sky-400' onChange={handleChangeInpute}/>
-                    </div>
+                    </div> */}
 
                     <div className='flex flex-col gap-3 justify-center items-center'>
                     <button type='submit' className='border bg-sky-400 outline-none px-2 rounded-2xl py-3 shadow-lg shadow-gray-500 border-sky-400 w-full md:w-[250px] mt-3 font-bold cursor-pointer hover:scale-[1.05] transition-transform duration-200 hover:text-white '>Sign up</button>
